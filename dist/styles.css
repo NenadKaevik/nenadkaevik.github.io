@@ -3109,11 +3109,11 @@ body {
     .row.main .board .position {
       color: #7f8fa6;
       text-transform: uppercase;
-      font-size: 12px;
-      letter-spacing: .5px; }
+      font-size: 12px; }
     .row.main .board .social {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      margin-top: 20px; }
       .row.main .board .social a {
         display: inline-block;
         text-align: center;

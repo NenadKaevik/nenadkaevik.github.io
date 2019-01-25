@@ -58,12 +58,12 @@ body{
             color:$gray;
             text-transform: uppercase;
             font-size: 12px;
-            letter-spacing: .5px;
         }
 
         .social{
             display: flex;
             justify-content: center;
+            margin-top:20px;
 
             a{
                 display:inline-block;
