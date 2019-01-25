@@ -1,0 +1,88 @@
+$primary: #00a8ff;
+$secondary: #273c75;
+$gray: #7f8fa6;
+$dark:  #2f3640;
+$light: #f5f6fa;
+$white: #fff;
+$black: #222;
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+
+body{
+    background-color: $light;
+    font-family: 'Product Sans', sans-serif;
+    color:$dark;
+}
+
+.row.main{
+    height:100vh;
+
+    .board{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        padding:20px;
+        background-color: $white;
+        box-shadow:0px 20px 30px -10px rgba(0,0,0,.1);
+        border-radius:5px;
+
+        .avatar{
+            box-sizing: border-box;
+            position:relative;
+            border-radius:50px;
+            width:100px;
+            height:100px;
+            overflow:hidden;
+        
+            img{
+                position:absolute;
+                height:100%;
+                left:50%;
+                top:50%;
+                transform:translate(-50%,-50%);
+            }
+        }
+
+        .name{
+            margin:10px 0px 0px 0px;
+            font-size:30px;
+        }
+
+        .position{
+            color:$gray;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: .5px;
+        }
+
+        .social{
+            display: flex;
+            justify-content: center;
+
+            a{
+                display:inline-block;
+                text-align: center;
+                margin:0px 5px;
+                width:40px;
+                height:40px;
+                line-height: 40px;
+                font-size:18px;
+                border-radius:40px;
+                border:1px solid $light;
+                color:$gray;
+                transition-duration: .2s;
+
+                &:hover{
+                    background:$gray;
+                    color:$white;
+                }
+            }
+        }
+    }
+}
