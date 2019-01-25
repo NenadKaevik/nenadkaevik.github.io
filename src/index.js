@@ -9,5 +9,5 @@ let gravatar = require('gravatar');
 let url = gravatar.url('nenadkaevik@gmail.com', {protocol: 'https', s: '100'});
 
 $(document).ready(function(){
-    $(".avatar img").attr("src",url);
+    //$(".avatar img").attr("src",url);
 });
