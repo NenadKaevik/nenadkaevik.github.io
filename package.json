@@ -4,7 +4,7 @@
   "description": "Personal website",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --watch"
+    "build": "webpack"
   },
   "keywords": [
     "portfolio"
@@ -16,7 +16,6 @@
     "css-loader": "^2.1.0",
     "extract-text-webpack-plugin": "^4.0.0-alpha.0",
     "file-loader": "^3.0.1",
-    "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.0",
@@ -26,6 +25,7 @@
     "bootstrap": "^4.3.1",
     "gravatar": "^1.8.0",
     "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
     "popper.js": "^1.14.6"
   }
 }
