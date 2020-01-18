@@ -6,12 +6,7 @@ $light: #f5f6fa;
 $white: #fff;
 $black: #222;
 
-@font-face {
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 canvas {
     position: fixed;
@@ -24,7 +19,7 @@ canvas {
 
 body{
     background-color: $light;
-    font-family: 'Product Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color:$dark;
 }
 

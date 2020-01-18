@@ -1,10 +1,4 @@
-@font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2"); }
-
-canvas {
+@import url(https://fonts.googleapis.com/css?family=Quicksand&display=swap);canvas {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,7 +8,7 @@ canvas {
 
 body {
   background-color: #f5f6fa;
-  font-family: 'Product Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: #2f3640; }
 
 @keyframes blurIn {

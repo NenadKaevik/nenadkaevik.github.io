@@ -4,7 +4,8 @@
   "description": "Personal website",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build:watch": "webpack --watch"
   },
   "keywords": [
     "portfolio"
